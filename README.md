@@ -1,4 +1,4 @@
-# <img src="Logo/Icon.png" width="64" valign="middle" alt="Scapy" />&nbsp;&nbsp; Vii
+# <img src="Logo/Icon.png" width="64" valign="middle" alt="Scapy" />&nbsp;&nbsp;
 
 _Vii es un script desarrollado en python y powershell contiene
 herramientas muy utiles para la ciberseguridad como obtener la Metadata de imagenes, ver los procesos que realiza nuestra computadora, podemos hacer web scraping entre otras cosas más, es muy util para obtener informacion de manera automatizada_
