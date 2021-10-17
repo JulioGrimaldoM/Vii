@@ -1,4 +1,4 @@
-# <img src="Logo/Icon.png" width="64" valign="middle" alt="Scapy" />&nbsp;&nbsp;
+# <img src="Logo/Icon.png" width="64" valign="middle" alt="Vii" />&nbsp;&nbsp;
 
 _Vii es un script desarrollado en python y powershell contiene
 herramientas muy utiles para la ciberseguridad como obtener la Metadata de imagenes, ver los procesos que realiza nuestra computadora, podemos hacer web scraping entre otras cosas más, es muy util para obtener informacion de manera automatizada_
@@ -83,8 +83,8 @@ optional arguments:
 [DIP]  Obtener dominio IP    python Vii.py -Name DIP -ip "IP del DNS"
 [UC]   Obtener ubicacion     python Vii.py -Name UC -key "Api key" -ln "Latitud" -lg "Longitud"
 ```
-_podemos ver que nos da unos ejemplos de como usar las herramientas de Vii
-al utilizar la herramienta Proc nos da un informe sobre los procesos que realiza nuestra PC
+_podemos ver que nos da unos ejemplos de como usar las herramientas de Vii. 
+Al utilizar la herramienta Proc nos da un informe sobre los procesos que realiza nuestra PC
 con esto podemos identificar si hay un malware ejecutandose o tambien podemos ver le rendimiento 
 del CPU_
 ```
@@ -95,6 +95,7 @@ _nos da como resultado lo siguiente_
 Analisis de Procesos Exitosa
 ```
 _nos crea archivos html donde podemos ver de una forma facil y legible_ 
+<img src="Doc/CPU.png" width="125" valign="middle" alt="CPU" />&nbsp;&nbsp; <img src="Doc/PCPU.png" width="125" valign="middle" alt="PCPU" />&nbsp;&nbsp; <img src="Doc/TCPU.png" width="125" valign="middle" alt="TCPU" />&nbsp;&nbsp;
 ## Version 📌
 
 Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
