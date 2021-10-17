@@ -33,7 +33,7 @@ _Deberas crear una cuenta y obtener una api key, tiene versiones gratuitas pero 
 ### Instrucciones 🔧
 
 _Es muy sencillo utilizar Vii lo primero que podemos hacer es pedir ayuda con el siguiente comando pero primero
-abriremos cmd, luego haremos cd "ruta"
+abriremos cmd, luego haremos cd "ruta"_
 ```
 C:\Users\Julio> cd "C:\Users\Julio\Desktop\PIA"
 ```
