@@ -83,6 +83,18 @@ optional arguments:
 [DIP]  Obtener dominio IP    python Vii.py -Name DIP -ip "IP del DNS"
 [UC]   Obtener ubicacion     python Vii.py -Name UC -key "Api key" -ln "Latitud" -lg "Longitud"
 ```
+_podemos ver que nos da unos ejemplos de como usar las herramientas de Vii
+al utilizar la herramienta Proc nos da un informe sobre los procesos que realiza nuestra PC
+con esto podemos identificar si hay un malware ejecutandose o tambien podemos ver le rendimiento 
+del CPU_
+```
+C:\Users\Julio\Desktop\PIA> python Vii.py -Name Proc
+```
+_nos da como resultado lo siguiente_
+```
+Analisis de Procesos Exitosa
+```
+_nos crea archivos html donde podemos ver de una forma facil y legible_ 
 ## Version 📌
 
 Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
