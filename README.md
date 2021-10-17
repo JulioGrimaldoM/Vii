@@ -1,4 +1,4 @@
-# <img src="Logo/Icon.png" width="64" valign="middle" alt="Scapy" />&nbsp;&nbsp;
+# <img src="Logo/Icon.png" width="64" valign="middle" alt="Scapy" />&nbsp;&nbsp; Vii
 
 _Vii es un script desarrollado en python y powershell contiene
 herramientas muy utiles para la ciberseguridad como obtener la Metadata de imagenes, ver los procesos que realiza nuestra computadora, podemos hacer web scraping entre otras cosas más, es muy util para obtener informacion de manera automatizada_
@@ -32,70 +32,16 @@ _Deberas crear una cuenta y obtener una api key, tiene versiones gratuitas pero 
 
 ### Instrucciones 🔧
 
-_Es muy sencillo utilizar Vii podemos pedir ayuda primero tenemos que dirigirnos a la carpeta donde tenemos Vii
-en mi caso la ruta es la siguiente_
-```
-C:\Users\Julio> cd "C:\Users\Julio\Desktop\PIA"
-```
-_luego escribimos lo siguiente_
-```
-C:\Users\Julio\Desktop\PIA>python Vii.py -h
-```
-_esto nos dara como resultado lo siguiente_
-```
-usage: Vii.py [-h] -Name Nombre [-r Ruta] [-url Url] [-msg Mensaje] [-c Correo] [-s Asunto] [-ip IP] [-port Puerto]
-              [-key key] [-b Buscar] [-d Dominio] [-ln Latitud] [-lg Longitud]
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-___ _      ___ _  ___ _   ___ _
-\  \ \    /  / / |   | | |   | |
- \  \ \  /  / /  |   | | |   | |
-  \  \ \/  / /   |   | | |   | |
-   \  \/  / /    |   | | |   | |
-    \_ _ /_/     |_ _|_| |_ _|_|
+_Dí cómo será ese paso_
 
-optional arguments:
-  -h, --help    show this help message and exit
-  -Name Nombre  Nombre de la Herramienta Vii
-  -r Ruta       Ruta de la carpeta con las imagenes
-  -url Url      Link de la pagina Web
-  -msg Mensaje  Mensaje a enviar al corro
-  -c Correo     Correo electronico
-  -s Asunto     Encabezado del mensaje
-  -ip IP        IP del equipo
-  -port Puerto  Puerto a analizar
-  -key key      Api key de la cuenta
-  -b Buscar     Palabra a Buscar
-  -d Dominio    Dominio del DNS
-  -ln Latitud   Distancia en grados, minutos y segundos respecto al paralelo principal
-  -lg Longitud  Distancia en grados, minutos y segundos respecto al meridiano principal
-
-<-------------------------------------------- Herramientas Vii -------------------------------------------->
-
- Name      Descripcion                                  Ejemplos
------- --------------------- -----------------------------------------------------------------------------
-[Proc] Analizar Procesos     python Vii.py -Name Proc
-[Wsc]  Web Scraping          python Vii.py -Name Wsc -url "Url de la pagina"
-[Md]   Metadata de Imagenes  python Vii.py -Name Md -r C:\Users\Alonso\Downloads\Imagenes\
-[Env]  Enviar correos        python Vii.py -Name Env -msg "Tu mensaje" -c "Correo" -s "Asunto del mensaje"
-[PA]   Analizar los puertos  python Vii.py -Name PA -ip "Tu IP" -port "Puerto a analizar"
-[BS]   Api shodan            python Vii.py -Name BS -key "Api key" -b "Buscar"
-[DNS]  Registros DNS         python Vii.py -Name DNS -d "domino del DNS"
-[DIP]  Obtener dominio IP    python Vii.py -Name DIP -ip "IP del DNS"
-[UC]   Obtener ubicacion     python Vii.py -Name UC -key "Api key" -ln "Latitud" -lg "Longitud"
 ```
-_podemos ver que nos da unos ejemplos de como usar las herramientas de Vii
-al utilizar la herramienta Proc nos da un informe sobre los procesos que realiza nuestra PC
-con esto podemos identificar si hay un malware ejecutandose o tambien podemos ver le rendimiento 
-del CPU_
+Da un ejemplo
 ```
-C:\Users\Julio\Desktop\PIA> python Vii.py -Name Proc
 ```
-_nos da como resultado lo siguiente_
+hasta finalizar
 ```
-Analisis de Procesos Exitosa
-```
-_nos crea archivos html donde podemos ver de una forma facil y legible_ 
-
 ## Version 📌
 
 Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
