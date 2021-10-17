@@ -32,15 +32,56 @@ _Deberas crear una cuenta y obtener una api key, tiene versiones gratuitas pero 
 
 ### Instrucciones 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Es muy sencillo utilizar Vii lo primero que podemos hacer es pedir ayuda con el siguiente comando pero primero
+abriremos cmd, luego haremos cd "ruta"
+```
+C:\Users\Julio> cd "C:\Users\Julio\Desktop\PIA"
+```
+_luego escribimos el siguiente comando_
+```
+C:\Users\Julio\Desktop\PIA>python Vii.py -h
+```
+nos dara como resultado los siguiente
+```
+usage: Vii.py [-h] -Name Nombre [-r Ruta] [-url Url] [-msg Mensaje] [-c Correo] [-s Asunto] [-ip IP] [-port Puerto]
+              [-key key] [-b Buscar] [-d Dominio] [-ln Latitud] [-lg Longitud]
 
-_Dí cómo será ese paso_
+___ _      ___ _  ___ _   ___ _
+\  \ \    /  / / |   | | |   | |
+ \  \ \  /  / /  |   | | |   | |
+  \  \ \/  / /   |   | | |   | |
+   \  \/  / /    |   | | |   | |
+    \_ _ /_/     |_ _|_| |_ _|_|
 
-```
-Da un ejemplo
-```
-```
-hasta finalizar
+optional arguments:
+  -h, --help    show this help message and exit
+  -Name Nombre  Nombre de la Herramienta Vii
+  -r Ruta       Ruta de la carpeta con las imagenes
+  -url Url      Link de la pagina Web
+  -msg Mensaje  Mensaje a enviar al corro
+  -c Correo     Correo electronico
+  -s Asunto     Encabezado del mensaje
+  -ip IP        IP del equipo
+  -port Puerto  Puerto a analizar
+  -key key      Api key de la cuenta
+  -b Buscar     Palabra a Buscar
+  -d Dominio    Dominio del DNS
+  -ln Latitud   Distancia en grados, minutos y segundos respecto al paralelo principal
+  -lg Longitud  Distancia en grados, minutos y segundos respecto al meridiano principal
+
+<-------------------------------------------- Herramientas Vii -------------------------------------------->
+
+ Name      Descripcion                                  Ejemplos
+------ --------------------- -----------------------------------------------------------------------------
+[Proc] Analizar Procesos     python Vii.py -Name Proc
+[Wsc]  Web Scraping          python Vii.py -Name Wsc -url "Url de la pagina"
+[Md]   Metadata de Imagenes  python Vii.py -Name Md -r C:\Users\Alonso\Downloads\Imagenes\
+[Env]  Enviar correos        python Vii.py -Name Env -msg "Tu mensaje" -c "Correo" -s "Asunto del mensaje"
+[PA]   Analizar los puertos  python Vii.py -Name PA -ip "Tu IP" -port "Puerto a analizar"
+[BS]   Api shodan            python Vii.py -Name BS -key "Api key" -b "Buscar"
+[DNS]  Registros DNS         python Vii.py -Name DNS -d "domino del DNS"
+[DIP]  Obtener dominio IP    python Vii.py -Name DIP -ip "IP del DNS"
+[UC]   Obtener ubicacion     python Vii.py -Name UC -key "Api key" -ln "Latitud" -lg "Longitud"
 ```
 ## Version 📌
 
