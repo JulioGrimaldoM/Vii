@@ -96,7 +96,7 @@ Analisis de Procesos Exitosa
 ```
 _nos crea archivos html donde podemos ver de una forma facil y legible_ 
 
-<img src="Doc/CPU.JPG" width="125" valign="middle" alt="CPU" />&nbsp;&nbsp; <img src="Doc/PCPU.JPG" width="110" valign="middle" alt="PCPU" />&nbsp;&nbsp; <img src="Doc/TCPU.JPG" width="135" valign="middle" alt="TCPU" />&nbsp;&nbsp;
+<img src="Doc/CPU.JPG" width="125" valign="middle" alt="CPU" />&nbsp;&nbsp; <img src="Doc/PCPU.JPG" width="110" valign="middle" alt="PCPU" />&nbsp;&nbsp; <img src="Doc/TCPU.JPG" width="130" valign="middle" alt="TCPU" />&nbsp;&nbsp;
 ## Version 📌
 
 Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
