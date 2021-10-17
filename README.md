@@ -32,16 +32,16 @@ _Deberas crear una cuenta y obtener una api key, tiene versiones gratuitas pero 
 
 ### Instrucciones 🔧
 
-_Es muy sencillo utilizar Vii lo primero que podemos hacer es pedir ayuda con el siguiente comando pero primero
-abriremos cmd, luego haremos cd "ruta"_
+_Es muy sencillo utilizar Vii podemos pedir ayuda primero tenemos que dirigirnos a la carpeta donde tenemos Vii
+en mi caso la ruta es la siguiente_
 ```
 C:\Users\Julio> cd "C:\Users\Julio\Desktop\PIA"
 ```
-_luego escribimos el siguiente comando_
+_luego escribimos lo siguiente_
 ```
 C:\Users\Julio\Desktop\PIA>python Vii.py -h
 ```
-nos dara como resultado los siguiente
+_esto nos dara como resultado lo siguiente_
 ```
 usage: Vii.py [-h] -Name Nombre [-r Ruta] [-url Url] [-msg Mensaje] [-c Correo] [-s Asunto] [-ip IP] [-port Puerto]
               [-key key] [-b Buscar] [-d Dominio] [-ln Latitud] [-lg Longitud]
