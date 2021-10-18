@@ -399,7 +399,11 @@ _esto nos dara como resultado lo siguiente_
                'Mexico',
   'geometry': {'lat': 25.7274224, 'lng': -100.3122511}}]
  ```
-_Todo esta es informacion muy util para saber la ubicacion mediante la obtencion de la metadata_
+_Todo esta es informacion muy util para saber la ubicacion mediante la obtencion de la metadata, luego 
+de haber ejecutado la herramienta UC nos abrira en nuestro navegador un mapa con la ubicacion marcada con 
+las coordenadas, este sera el resultado_
+
+<img src="Doc/My_Map.JPG" width="125" valign="middle" alt="CPU" />&nbsp;&nbsp;
 
 ## Version 📌
 
