@@ -43,8 +43,8 @@ C:\Users\Julio\Desktop\PIA>python Vii.py -h
 ```
 _esto nos dara como resultado lo siguiente_
 ```
-usage: Vii.py [-h] -Name Nombre [-r Ruta] [-url Url] [-msg Mensaje] [-c Correo] [-s Asunto] [-ip IP] [-port Puerto]
-              [-key key] [-b Buscar] [-d Dominio] [-ln Latitud] [-lg Longitud]
+usage: Vii.py [-h] -Name Nombre [-r Ruta] [-url Url] [-msg Mensaje] [-c Correo] [-s Asunto] [-e Destinatario] [-ip IP]
+              [-port Puerto] [-key key] [-b Buscar] [-d Dominio] [-ln Latitud] [-lg Longitud]
 
 ___ _      ___ _  ___ _   ___ _
 \  \ \    /  / / |   | | |   | |
@@ -54,29 +54,30 @@ ___ _      ___ _  ___ _   ___ _
     \_ _ /_/     |_ _|_| |_ _|_|
 
 optional arguments:
-  -h, --help    show this help message and exit
-  -Name Nombre  Nombre de la Herramienta Vii
-  -r Ruta       Ruta de la carpeta con las imagenes
-  -url Url      Link de la pagina Web
-  -msg Mensaje  Mensaje a enviar al corro
-  -c Correo     Correo electronico
-  -s Asunto     Encabezado del mensaje
-  -ip IP        IP del equipo
-  -port Puerto  Puerto a analizar
-  -key key      Api key de la cuenta
-  -b Buscar     Palabra a Buscar
-  -d Dominio    Dominio del DNS
-  -ln Latitud   Distancia en grados, minutos y segundos respecto al paralelo principal
-  -lg Longitud  Distancia en grados, minutos y segundos respecto al meridiano principal
+  -h, --help       show this help message and exit
+  -Name Nombre     Nombre de la Herramienta Vii
+  -r Ruta          Ruta de la carpeta con las imagenes
+  -url Url         Link de la pagina Web
+  -msg Mensaje     Mensaje a enviar al corro
+  -c Correo        Correo electronico
+  -s Asunto        Encabezado del mensaje
+  -e Destinatario  Cuenta que recibira el correo
+  -ip IP           IP del equipo
+  -port Puerto     Puerto a analizar
+  -key key         Api key de la cuenta
+  -b Buscar        Palabra a Buscar
+  -d Dominio       Dominio del DNS
+  -ln Latitud      Distancia en grados, minutos y segundos respecto al paralelo principal
+  -lg Longitud     Distancia en grados, minutos y segundos respecto al meridiano principal
 
-<-------------------------------------------- Herramientas Vii -------------------------------------------->
+<---------------------------------------------------- Herramientas Vii ----------------------------------------------------->
 
- Name      Descripcion                                  Ejemplos
------- --------------------- -----------------------------------------------------------------------------
+ Name      Descripcion                                              Ejemplos
+------ --------------------- -----------------------------------------------------------------------------------------------
 [Proc] Analizar Procesos     python Vii.py -Name Proc
 [Wsc]  Web Scraping          python Vii.py -Name Wsc -url "Url de la pagina"
 [Md]   Metadata de Imagenes  python Vii.py -Name Md -r C:\Users\Alonso\Downloads\Imagenes\
-[Env]  Enviar correos        python Vii.py -Name Env -msg "Tu mensaje" -c "Correo" -s "Asunto del mensaje"
+[Env]  Enviar correos        python Vii.py -Name Env -msg "Tu mensaje" -c "Correo" -s "Asunto del mensaje" -e "Destinatario"
 [PA]   Analizar los puertos  python Vii.py -Name PA -ip "Tu IP" -port "Puerto a analizar"
 [BS]   Api shodan            python Vii.py -Name BS -key "Api key" -b "Buscar"
 [DNS]  Registros DNS         python Vii.py -Name DNS -d "domino del DNS"
@@ -180,8 +181,26 @@ sobre la ubicacion donde fue tomada la foto, como tambien la marca, version del 
 tambien tenemos una herramienta de geolocalizacion que nos permite obtener la direccion y nos da
 un mapa sobre las coordenadas dadas_
 
-_Herramienta Env_
-
+_La herramienta Env nos ayudara a enviar correos de una manera automatizada estos nos ayuda en 
+ahorrar tiempo, para usarla necesitos hacer lo siguiente_
+```
+python Vii.py -Name Env -msg "Tu mensaje" -c "Tu_Correo" -s "Asunto del mensaje" -e "Destinatario"
+```
+_luego de dar enter te pedira la contraseña de tu correo_
+```
+C:\Users\Julio\Desktop\PIA> python Vii.py -Name Env -msg "Tu mensaje" -c "Tu_Correo" -s "Asunto del mensaje" -e "Destinatario"
+Password:
+```
+_nos dara como resultado lo siguiente_
+```
+C:\Users\Julio\Desktop\PIA> python Vii.py -Name Env -msg "Tu mensaje" -c "Tu_Correo" -s "Asunto del mensaje" -e "Destinatario"
+Password:
+[+]Conectando con el servidor....
+[+]Iniciando la sesion Encriptada....
+[+]Loging en el servidor....
+[+]Enviando mail....
+[+]Se envio el email correctamente
+```
 _la herramienta PA nos permite visualizar los puertos abiertos de un dispositivo por medio 
 de su ip, la forma de utilizarlo es mediante el siguiente comando_
 ```
@@ -419,4 +438,3 @@ Esta es la version 1.00
 
 * Quisiera agradecer haber tomado su tiempo para leer la documentacion 📢
 * Espero le saquen provecho a Vii.
-* Me gusto la herramienta de geolocalizacion 
