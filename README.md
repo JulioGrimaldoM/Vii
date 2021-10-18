@@ -227,7 +227,9 @@ Content-Type: text/html; charset=iso-8859-1
 ```
 _nos dara una cantidad increible de informacion pero lo mas interesante de estas busquedas son las ip
 por lo tanto esta herramienta genera un archivo txt con todas las ip de la busqueda de servidores apache_
-
+```
+IP.txt
+```
 _La herramienta DNS es muy util para obtener registros sobre los DNS
 para usarlo usaremos este comando_
 ```
