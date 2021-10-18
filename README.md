@@ -403,7 +403,7 @@ _Todo esta es informacion muy util para saber la ubicacion mediante la obtencion
 de haber ejecutado la herramienta UC nos abrira en nuestro navegador un mapa con la ubicacion marcada con 
 las coordenadas, este sera el resultado_
 
-<img src="Doc/Mi_Map.JPG" width="150" height="200" valign="middle" alt="CPU" />&nbsp;&nbsp;
+<img src="Doc/Mi_Map.JPG" width="300" height="200" valign="middle" alt="CPU" />&nbsp;&nbsp;
 
 ## Version 📌
 
