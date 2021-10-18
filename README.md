@@ -180,6 +180,8 @@ sobre la ubicacion donde fue tomada la foto, como tambien la marca, version del 
 tambien tenemos una herramienta de geolocalizacion que nos permite obtener la direccion y nos da
 un mapa sobre las coordenadas dadas_
 
+_Herramienta Env_
+
 _la herramienta PA nos permite visualizar los puertos abiertos de un dispositivo por medio 
 de su ip, la forma de utilizarlo es mediante el siguiente comando_
 ```
@@ -407,15 +409,14 @@ las coordenadas, este sera el resultado_
 
 ## Version 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Esta es la version 1.00
 
 ## Autores ✒️
 
 * **Julio Alonso** - *Trabajo Inicial, Documentación* - [JulioGrimaldoM](https://github.com/JulioGrimaldoM)
 
-## Expresiones de Gratitud 🎁
+## Gracias por usar Vii🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
-* Da las gracias públicamente 🤓.
-* etc.
+* Quisiera agradecer haber tomado su tiempo para leer la documentacion 📢
+* Espero le saquen provecho a Vii.
+* Me gusto la herramienta de geolocalizacion 
