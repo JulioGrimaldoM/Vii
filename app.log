@@ -1,0 +1,53 @@
+INFO:root:Se analizo los procesos exitosamente
+INFO:root:Se inicio Vii Correctamente
+INFO:root:Se descargo la imagen exitosamente
+INFO:root:Se descargo el PDF exitosamente
+INFO:root:Se obtuvieron los links exitosamente
+INFO:root:Web scraping iniciado exitosamente
+INFO:root:Se inicio Vii Correctamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Finalizo la busqueda de Metadata exitosamente
+INFO:root:Se inicio exitosamente Metadata
+INFO:root:Se inicio Vii Correctamente
+ERROR:root:Ocurrio un error al enviar el correo: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials w93sm3288568otb.78 - gsmtp')
+INFO:root:Se inicio Vii Correctamente
+INFO:root:Se envio el correo con exito
+INFO:root:Se inicio Vii Correctamente
+INFO:root:Se analizaron correctamente los puertos
+INFO:root:Se inicio Vii Correctamente
+INFO:root:Finalizo la busqueda shodan exitosamente
+INFO:root:Se inicio Vii Correctamente
+INFO:root:Finalizo el registro DNS con exito
+INFO:root:Se inicio Vii Correctamente
+INFO:root:Se inicio Vii Correctamente
+INFO:root:Finalizo la geolocalizacion con exito
+INFO:root:Se inicio Vii Correctamente
