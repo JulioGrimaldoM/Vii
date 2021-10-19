@@ -430,6 +430,13 @@ las coordenadas, este sera el resultado_
 
 Esta es la version 1.00
 
+## Sesiónes 🎯
+* [Sesión 1](https://web.microsoftstream.com/video/5a5be0dd-3d35-4135-956c-e3ac976cef6d?list=studio)
+* [Sesión 2](https://web.microsoftstream.com/video/83a4f201-af9a-433a-b818-e238eb785df7?list=studio)
+
+## Presentación de Vii 🔔
+* [Presentacion](https://web.microsoftstream.com/video/4528b9f0-bc60-4fe7-9cc4-5fd3aa18b235?list=studio)
+
 ## Autores ✒️
 
 * **Julio Alonso** - *Trabajo Inicial, Documentación* - [JulioGrimaldoM](https://github.com/JulioGrimaldoM)
